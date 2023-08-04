@@ -1,0 +1,1402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\ushiyama\Dropbox\Lab\KiCad\photo_switching\photo_switching.kicad_sch</source>
+    <date>11/26/2022 10:32:50 AM</date>
+    <tool>Eeschema (6.0.8)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>optocoupler switching</title>
+        <company/>
+        <rev>0</rev>
+        <date>2022-10-31</date>
+        <source>photo_switching.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b33e8f38-48f2-4621-9d91-eae711c15283</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef753aed-e43c-4007-ab51-7578426c488b</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67f40072-e974-4e65-9f9d-2cc9221e93d2</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>205169ab-461c-466f-853c-2b9590b716ef</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>signals</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x07_Male" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61d8c3eb-e29d-4b13-b306-a35594fe1d4d</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>output</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x16" description="Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f3cc8c7-6ddc-4e85-a771-f3ff70e54cf2</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>source</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08ca16e5-fe1b-40b8-8c36-fbca226142a7</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06006ad5-ff08-4f01-92b6-d50d9869b7da</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5265e25f-5b83-4028-a6d2-c6f76d7594fc</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>583a5059-1146-47b3-94ec-f1dfe24aad89</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b5af4a2-d347-4ab7-9dd9-fb23bdea834f</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>728acc15-9860-44c2-9a34-d8cca7eba88c</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0acefeb7-dbc3-4c55-81d8-1c19533fe7d8</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ebd9fff-fb11-4673-9739-b4be40f0daef</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8dd0f4a-6530-4531-88cd-e1f893dd875f</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6c88c7a-c8fc-44bb-be33-9aee5a152a06</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8caaabea-ef68-43aa-a9b6-355d14e9cdbc</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff998065-6464-47fa-ba45-f2a6758afca1</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ded2704c-d645-49a8-896c-84a9462d8837</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f66fa8c0-de0d-448b-b2eb-9a9ca020c243</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cdad079c-66ba-453a-b3da-bd3e6dbfeeff</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b73ce4f8-e6a2-49c8-bb64-266a8baa7256</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6bf8e2e9-8a5b-4866-a3fd-062cddbae3f8</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78afbd4b-1712-4181-ba4a-76aaad88adcb</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff2e1928-d832-4441-9a0e-7cc62687caf6</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d9239e0-49d0-4bd9-99f8-4bf34f801009</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>edcf0fb5-205c-47d3-82eb-da864e7a1246</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1896a136-9bb0-43c0-a610-f5d6f39110ef</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad2e7ad1-6e68-4822-8c32-2f5adc32d26d</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29a232b6-c923-4956-9c17-3b9f70253e7e</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6ee7bc8-f9f4-4504-98b0-5db6f366757c</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2863b89-27d4-44f0-a9f0-d7445aaf525c</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6be7e9c2-d49e-48a0-bf0e-00a63de7a0f8</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d50cbf9-5874-4c00-a5a6-78e8125b35ef</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb3520bb-b396-482d-87f6-6e732848435b</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8959ff6-2a6d-42c9-890f-bcc84f17826d</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b45bc7d1-c43e-49f4-98d8-186b17b8a7cf</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1d6f54a-7608-4823-b224-34042255c445</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4202ce5-57ad-4b8b-a9cc-a9dadf5ec670</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>74HC595</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C273642</field>
+      </fields>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <property name="LCSC" value="C273642"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>795bda56-0c4b-40dd-b52a-b9db7b7a47c7</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <fields>
+        <field name="LCSC">C516859</field>
+      </fields>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="LCSC" value="C516859"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca99bcdc-4ea8-413f-8cf6-8d4e7e03dc05</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f4231be-2456-461f-a4f4-03178ea8c6e9</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39fc5789-e183-45a7-9c9d-000913c4db22</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2091aa9-cbc1-4659-9926-e1d8f704117d</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>401c360c-7c8d-4548-a81b-c650e3f7cc15</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4970a83a-b3c3-4a4f-b7fb-114bdc85fb1d</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7e4950e-fd1e-4b9b-bb85-b59a0b21d5a0</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80300652-0e14-4761-b703-96f9e5c937c0</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>74HC595</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C273642</field>
+      </fields>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <property name="LCSC" value="C273642"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa1b0bd1-72fe-4d18-8b3b-300291b34503</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef2e0579-5429-429d-ab24-29f0b69829c3</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82278104-2418-4780-bade-5955fbefb74e</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>876bf9e0-402a-42bb-ba50-02e1d91ad697</tstamps>
+    </comp>
+    <comp ref="U14">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f234a9b2-ee51-4451-a421-5fc2af2434ac</tstamps>
+    </comp>
+    <comp ref="U15">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8332c514-5ab0-4afc-bafe-6a2360489785</tstamps>
+    </comp>
+    <comp ref="U16">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d4f0564-9fed-4d19-9378-532eb7a5d0f5</tstamps>
+    </comp>
+    <comp ref="U17">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60294313-96a0-4a74-98ed-1eab634f1093</tstamps>
+    </comp>
+    <comp ref="U18">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf3a48dc-e0ae-4997-a3f2-8d393bd53b5f</tstamps>
+    </comp>
+    <comp ref="U19">
+      <value>74HC595</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C273642</field>
+      </fields>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <property name="LCSC" value="C273642"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>975f7eb9-1fbd-43d4-ad7f-ee03ef1bd015</tstamps>
+    </comp>
+    <comp ref="U20">
+      <value>74HC595</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C273642</field>
+      </fields>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <property name="LCSC" value="C273642"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>149f9ffe-7c50-4662-9ad7-d85259a7b85c</tstamps>
+    </comp>
+    <comp ref="U21">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b756367-caca-47ac-9cb8-b4a73fe929e3</tstamps>
+    </comp>
+    <comp ref="U22">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87008025-1c1f-4055-9ef4-8982a038bc57</tstamps>
+    </comp>
+    <comp ref="U23">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9959ef85-e496-49fa-9adb-be08bdba2b9b</tstamps>
+    </comp>
+    <comp ref="U24">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4221ea2a-f954-4275-82f5-98576ef78add</tstamps>
+    </comp>
+    <comp ref="U25">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6840df0f-f2bf-4987-bc5d-640d84133f06</tstamps>
+    </comp>
+    <comp ref="U26">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4be2df9-9002-407a-b39f-bd8656a5dc97</tstamps>
+    </comp>
+    <comp ref="U27">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18cdc40d-bf9e-4034-b8ad-4002216dfb51</tstamps>
+    </comp>
+    <comp ref="U28">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8cab36e4-7eb6-4ad7-b2f0-08b3a67a4f11</tstamps>
+    </comp>
+    <comp ref="U29">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40c5924a-198f-4d1c-b975-7675e7c879e4</tstamps>
+    </comp>
+    <comp ref="U30">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0f9dbb3-0bf2-4424-b67c-f5d3a18c6d89</tstamps>
+    </comp>
+    <comp ref="U31">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44c12a47-1d64-43d9-836e-d286956142ff</tstamps>
+    </comp>
+    <comp ref="U32">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>484362a0-e950-4297-91f7-7a312dd32776</tstamps>
+    </comp>
+    <comp ref="U33">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17408513-e1d6-42c6-9e93-dbc4fe1e807e</tstamps>
+    </comp>
+    <comp ref="U34">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6da75bfe-78e9-4c0f-ad2b-5a61caddd5f9</tstamps>
+    </comp>
+    <comp ref="U35">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f34b440f-d111-4d79-a1ad-86c808bc4bce</tstamps>
+    </comp>
+    <comp ref="U36">
+      <value>TLP176GA</value>
+      <footprint>keigo_custom_footprint:TLP176GA</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</datasheet>
+      <libsource lib="keigo_custom" part="TLP176GA" description="photorelay"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: photo_switching.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e91799a2-91fc-404b-b843-d2bb0c792c09</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74HC595">
+      <description>8-bit serial in/out Shift Register 3-State Outputs</description>
+      <docs>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SOIC*5.3x10.2mm*P1.27mm*</fp>
+        <fp>SOIC*7.5x10.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC595</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="QB" type="tri_state"/>
+        <pin num="2" name="QC" type="tri_state"/>
+        <pin num="3" name="QD" type="tri_state"/>
+        <pin num="4" name="QE" type="tri_state"/>
+        <pin num="5" name="QF" type="tri_state"/>
+        <pin num="6" name="QG" type="tri_state"/>
+        <pin num="7" name="QH" type="tri_state"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="QH'" type="output"/>
+        <pin num="10" name="~{SRCLR}" type="input"/>
+        <pin num="11" name="SRCLK" type="input"/>
+        <pin num="12" name="RCLK" type="input"/>
+        <pin num="13" name="~{OE}" type="input"/>
+        <pin num="14" name="SER" type="input"/>
+        <pin num="15" name="QA" type="tri_state"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x07_Male">
+      <description>Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x16">
+      <description>Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x16</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="keigo_custom" part="TLP176GA">
+      <description>photorelay</description>
+      <docs>https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLP176GA</field>
+        <field name="Footprint">keigo_custom_footprint:TLP176GA</field>
+        <field name="Datasheet">https://toshiba.semicon-storage.com/info/TLP176GA_datasheet_en_20190617.pdf?did=17009&amp;prodName=TLP176GA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/74xx.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="keigo_custom">
+      <uri>C:/Users/ushiyama/Dropbox/Lab/KiCad/library/keigo_custom.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U10" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U19" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U20" pin="16" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="/CLK">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="RCLK" pintype="input"/>
+      <node ref="U10" pin="12" pinfunction="RCLK" pintype="input"/>
+      <node ref="U19" pin="12" pinfunction="RCLK" pintype="input"/>
+      <node ref="U20" pin="12" pinfunction="RCLK" pintype="input"/>
+    </net>
+    <net code="3" name="/CLR">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="~{SRCLR}" pintype="input"/>
+      <node ref="U10" pin="10" pinfunction="~{SRCLR}" pintype="input"/>
+      <node ref="U19" pin="10" pinfunction="~{SRCLR}" pintype="input"/>
+      <node ref="U20" pin="10" pinfunction="~{SRCLR}" pintype="input"/>
+    </net>
+    <net code="4" name="/DIN">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="SER" pintype="input"/>
+    </net>
+    <net code="5" name="/Dout">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U20" pin="9" pinfunction="QH'" pintype="output"/>
+    </net>
+    <net code="6" name="/OUT1">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="3" pintype="passive"/>
+      <node ref="U3" pin="4" pintype="passive"/>
+    </net>
+    <net code="7" name="/OUT2">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U4" pin="3" pintype="passive"/>
+      <node ref="U5" pin="4" pintype="passive"/>
+    </net>
+    <net code="8" name="/OUT3">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U6" pin="3" pintype="passive"/>
+      <node ref="U7" pin="4" pintype="passive"/>
+    </net>
+    <net code="9" name="/OUT4">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U8" pin="3" pintype="passive"/>
+      <node ref="U9" pin="4" pintype="passive"/>
+    </net>
+    <net code="10" name="/OUT5">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U11" pin="3" pintype="passive"/>
+      <node ref="U12" pin="4" pintype="passive"/>
+    </net>
+    <net code="11" name="/OUT6">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U13" pin="3" pintype="passive"/>
+      <node ref="U14" pin="4" pintype="passive"/>
+    </net>
+    <net code="12" name="/OUT7">
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U15" pin="3" pintype="passive"/>
+      <node ref="U16" pin="4" pintype="passive"/>
+    </net>
+    <net code="13" name="/OUT8">
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U17" pin="3" pintype="passive"/>
+      <node ref="U18" pin="4" pintype="passive"/>
+    </net>
+    <net code="14" name="/OUT9">
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U23" pin="3" pintype="passive"/>
+      <node ref="U24" pin="4" pintype="passive"/>
+    </net>
+    <net code="15" name="/OUT10">
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U27" pin="3" pintype="passive"/>
+      <node ref="U28" pin="4" pintype="passive"/>
+    </net>
+    <net code="16" name="/OUT11">
+      <node ref="J2" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="U31" pin="3" pintype="passive"/>
+      <node ref="U32" pin="4" pintype="passive"/>
+    </net>
+    <net code="17" name="/OUT12">
+      <node ref="J2" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="U35" pin="3" pintype="passive"/>
+      <node ref="U36" pin="4" pintype="passive"/>
+    </net>
+    <net code="18" name="/OUT13">
+      <node ref="J2" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U21" pin="3" pintype="passive"/>
+      <node ref="U22" pin="4" pintype="passive"/>
+    </net>
+    <net code="19" name="/OUT14">
+      <node ref="J2" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="U25" pin="3" pintype="passive"/>
+      <node ref="U26" pin="4" pintype="passive"/>
+    </net>
+    <net code="20" name="/OUT15">
+      <node ref="J2" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="U29" pin="3" pintype="passive"/>
+      <node ref="U30" pin="4" pintype="passive"/>
+    </net>
+    <net code="21" name="/OUT16">
+      <node ref="J2" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="U33" pin="3" pintype="passive"/>
+      <node ref="U34" pin="4" pintype="passive"/>
+    </net>
+    <net code="22" name="/RCLK">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="SRCLK" pintype="input"/>
+      <node ref="U10" pin="11" pinfunction="SRCLK" pintype="input"/>
+      <node ref="U19" pin="11" pinfunction="SRCLK" pintype="input"/>
+      <node ref="U20" pin="11" pinfunction="SRCLK" pintype="input"/>
+    </net>
+    <net code="23" name="/SH1_QA">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="QA" pintype="tri_state"/>
+    </net>
+    <net code="24" name="/SH1_QB">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="QB" pintype="tri_state"/>
+    </net>
+    <net code="25" name="/SH1_QC">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="QC" pintype="tri_state"/>
+    </net>
+    <net code="26" name="/SH1_QD">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="QD" pintype="tri_state"/>
+    </net>
+    <net code="27" name="/SH1_QE">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="QE" pintype="tri_state"/>
+    </net>
+    <net code="28" name="/SH1_QF">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="QF" pintype="tri_state"/>
+    </net>
+    <net code="29" name="/SH1_QG">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="QG" pintype="tri_state"/>
+    </net>
+    <net code="30" name="/SH1_QH">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="QH" pintype="tri_state"/>
+    </net>
+    <net code="31" name="/SH2_QA">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U10" pin="15" pinfunction="QA" pintype="tri_state"/>
+    </net>
+    <net code="32" name="/SH2_QB">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U10" pin="1" pinfunction="QB" pintype="tri_state"/>
+    </net>
+    <net code="33" name="/SH2_QC">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U10" pin="2" pinfunction="QC" pintype="tri_state"/>
+    </net>
+    <net code="34" name="/SH2_QD">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U10" pin="3" pinfunction="QD" pintype="tri_state"/>
+    </net>
+    <net code="35" name="/SH2_QE">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U10" pin="4" pinfunction="QE" pintype="tri_state"/>
+    </net>
+    <net code="36" name="/SH2_QF">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U10" pin="5" pinfunction="QF" pintype="tri_state"/>
+    </net>
+    <net code="37" name="/SH2_QG">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U10" pin="6" pinfunction="QG" pintype="tri_state"/>
+    </net>
+    <net code="38" name="/SH2_QH">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U10" pin="7" pinfunction="QH" pintype="tri_state"/>
+    </net>
+    <net code="39" name="/SH3_QA">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U19" pin="15" pinfunction="QA" pintype="tri_state"/>
+    </net>
+    <net code="40" name="/SH3_QB">
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U19" pin="1" pinfunction="QB" pintype="tri_state"/>
+    </net>
+    <net code="41" name="/SH3_QC">
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U19" pin="2" pinfunction="QC" pintype="tri_state"/>
+    </net>
+    <net code="42" name="/SH3_QD">
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="U19" pin="3" pinfunction="QD" pintype="tri_state"/>
+    </net>
+    <net code="43" name="/SH3_QE">
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U19" pin="4" pinfunction="QE" pintype="tri_state"/>
+    </net>
+    <net code="44" name="/SH3_QF">
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="U19" pin="5" pinfunction="QF" pintype="tri_state"/>
+    </net>
+    <net code="45" name="/SH3_QG">
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="U19" pin="6" pinfunction="QG" pintype="tri_state"/>
+    </net>
+    <net code="46" name="/SH3_QH">
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="U19" pin="7" pinfunction="QH" pintype="tri_state"/>
+    </net>
+    <net code="47" name="/SH4_QA">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U20" pin="15" pinfunction="QA" pintype="tri_state"/>
+    </net>
+    <net code="48" name="/SH4_QB">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U20" pin="1" pinfunction="QB" pintype="tri_state"/>
+    </net>
+    <net code="49" name="/SH4_QC">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U20" pin="2" pinfunction="QC" pintype="tri_state"/>
+    </net>
+    <net code="50" name="/SH4_QD">
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U20" pin="3" pinfunction="QD" pintype="tri_state"/>
+    </net>
+    <net code="51" name="/SH4_QE">
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="U20" pin="4" pinfunction="QE" pintype="tri_state"/>
+    </net>
+    <net code="52" name="/SH4_QF">
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="U20" pin="5" pinfunction="QF" pintype="tri_state"/>
+    </net>
+    <net code="53" name="/SH4_QG">
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="U20" pin="6" pinfunction="QG" pintype="tri_state"/>
+    </net>
+    <net code="54" name="/SH4_QH">
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U20" pin="7" pinfunction="QH" pintype="tri_state"/>
+    </net>
+    <net code="55" name="/V+">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U11" pin="4" pintype="passive"/>
+      <node ref="U13" pin="4" pintype="passive"/>
+      <node ref="U15" pin="4" pintype="passive"/>
+      <node ref="U17" pin="4" pintype="passive"/>
+      <node ref="U2" pin="4" pintype="passive"/>
+      <node ref="U21" pin="4" pintype="passive"/>
+      <node ref="U23" pin="4" pintype="passive"/>
+      <node ref="U25" pin="4" pintype="passive"/>
+      <node ref="U27" pin="4" pintype="passive"/>
+      <node ref="U29" pin="4" pintype="passive"/>
+      <node ref="U31" pin="4" pintype="passive"/>
+      <node ref="U33" pin="4" pintype="passive"/>
+      <node ref="U35" pin="4" pintype="passive"/>
+      <node ref="U4" pin="4" pintype="passive"/>
+      <node ref="U6" pin="4" pintype="passive"/>
+      <node ref="U8" pin="4" pintype="passive"/>
+    </net>
+    <net code="56" name="/V-">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U12" pin="3" pintype="passive"/>
+      <node ref="U14" pin="3" pintype="passive"/>
+      <node ref="U16" pin="3" pintype="passive"/>
+      <node ref="U18" pin="3" pintype="passive"/>
+      <node ref="U22" pin="3" pintype="passive"/>
+      <node ref="U24" pin="3" pintype="passive"/>
+      <node ref="U26" pin="3" pintype="passive"/>
+      <node ref="U28" pin="3" pintype="passive"/>
+      <node ref="U3" pin="3" pintype="passive"/>
+      <node ref="U30" pin="3" pintype="passive"/>
+      <node ref="U32" pin="3" pintype="passive"/>
+      <node ref="U34" pin="3" pintype="passive"/>
+      <node ref="U36" pin="3" pintype="passive"/>
+      <node ref="U5" pin="3" pintype="passive"/>
+      <node ref="U7" pin="3" pintype="passive"/>
+      <node ref="U9" pin="3" pintype="passive"/>
+    </net>
+    <net code="57" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="~{OE}" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U10" pin="13" pinfunction="~{OE}" pintype="input"/>
+      <node ref="U10" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U11" pin="2" pintype="passive"/>
+      <node ref="U12" pin="2" pintype="passive"/>
+      <node ref="U13" pin="2" pintype="passive"/>
+      <node ref="U14" pin="2" pintype="passive"/>
+      <node ref="U15" pin="2" pintype="passive"/>
+      <node ref="U16" pin="2" pintype="passive"/>
+      <node ref="U17" pin="2" pintype="passive"/>
+      <node ref="U18" pin="2" pintype="passive"/>
+      <node ref="U19" pin="13" pinfunction="~{OE}" pintype="input"/>
+      <node ref="U19" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pintype="passive"/>
+      <node ref="U20" pin="13" pinfunction="~{OE}" pintype="input"/>
+      <node ref="U20" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U21" pin="2" pintype="passive"/>
+      <node ref="U22" pin="2" pintype="passive"/>
+      <node ref="U23" pin="2" pintype="passive"/>
+      <node ref="U24" pin="2" pintype="passive"/>
+      <node ref="U25" pin="2" pintype="passive"/>
+      <node ref="U26" pin="2" pintype="passive"/>
+      <node ref="U27" pin="2" pintype="passive"/>
+      <node ref="U28" pin="2" pintype="passive"/>
+      <node ref="U29" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pintype="passive"/>
+      <node ref="U30" pin="2" pintype="passive"/>
+      <node ref="U31" pin="2" pintype="passive"/>
+      <node ref="U32" pin="2" pintype="passive"/>
+      <node ref="U33" pin="2" pintype="passive"/>
+      <node ref="U34" pin="2" pintype="passive"/>
+      <node ref="U35" pin="2" pintype="passive"/>
+      <node ref="U36" pin="2" pintype="passive"/>
+      <node ref="U4" pin="2" pintype="passive"/>
+      <node ref="U5" pin="2" pintype="passive"/>
+      <node ref="U6" pin="2" pintype="passive"/>
+      <node ref="U7" pin="2" pintype="passive"/>
+      <node ref="U8" pin="2" pintype="passive"/>
+      <node ref="U9" pin="2" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U4" pin="1" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U5" pin="1" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U6" pin="1" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U7" pin="1" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U8" pin="1" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U9" pin="1" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(R9-Pad2)">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U11" pin="1" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U12" pin="1" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U13" pin="1" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U14" pin="1" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(R13-Pad2)">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U15" pin="1" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(R14-Pad2)">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U16" pin="1" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(R15-Pad2)">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U17" pin="1" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(R16-Pad2)">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U18" pin="1" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(R17-Pad2)">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U21" pin="1" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(R18-Pad2)">
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U23" pin="1" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(R19-Pad2)">
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U22" pin="1" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(R20-Pad2)">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U24" pin="1" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(R21-Pad2)">
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U25" pin="1" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(R22-Pad2)">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U26" pin="1" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(R23-Pad2)">
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="U27" pin="1" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(R24-Pad2)">
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U28" pin="1" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(R25-Pad2)">
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U29" pin="1" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(R26-Pad2)">
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U30" pin="1" pintype="passive"/>
+    </net>
+    <net code="84" name="Net-(R27-Pad2)">
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="U31" pin="1" pintype="passive"/>
+    </net>
+    <net code="85" name="Net-(R28-Pad2)">
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="U32" pin="1" pintype="passive"/>
+    </net>
+    <net code="86" name="Net-(R29-Pad2)">
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="U33" pin="1" pintype="passive"/>
+    </net>
+    <net code="87" name="Net-(R30-Pad2)">
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="U34" pin="1" pintype="passive"/>
+    </net>
+    <net code="88" name="Net-(R31-Pad2)">
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="U35" pin="1" pintype="passive"/>
+    </net>
+    <net code="89" name="Net-(R32-Pad2)">
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="U36" pin="1" pintype="passive"/>
+    </net>
+    <net code="90" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9" pinfunction="QH'" pintype="output"/>
+      <node ref="U10" pin="14" pinfunction="SER" pintype="input"/>
+    </net>
+    <net code="91" name="Net-(U10-Pad9)">
+      <node ref="U10" pin="9" pinfunction="QH'" pintype="output"/>
+      <node ref="U19" pin="14" pinfunction="SER" pintype="input"/>
+    </net>
+    <net code="92" name="Net-(U19-Pad9)">
+      <node ref="U19" pin="9" pinfunction="QH'" pintype="output"/>
+      <node ref="U20" pin="14" pinfunction="SER" pintype="input"/>
+    </net>
+  </nets>
+</export>
