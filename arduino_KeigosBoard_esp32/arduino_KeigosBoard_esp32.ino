@@ -14,7 +14,7 @@ const int NUM_CH_USED = 12;
 const int SR_SER    = 32;   // Keigo's = SER (DI)
 const int SR_CLK    = 33;   // on board, it is written RCK but it's shift register's clk //26;  // Keigo's = 26
 const int SR_CLR    = 25;   // Keigo's = RCLK (RC)
-const int SR_RCLK   = 26;   // on board, it is written CK but it's actually a ratch's clk //33; // Keigo's = CLK (CK)
+const int SR_RCLK   = 26;   // on board, it is written CK but it's actually a latch's clk //33; // Keigo's = CLK (CK)
 const int SR_OE     = 27;   // not used
 
 const int STATE_OPEN = 0;
